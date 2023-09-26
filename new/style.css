@@ -1,0 +1,23 @@
+/* Your existing styles */
+
+/* Add these CSS variables for theme customization */
+:root {
+  --text-color-light: #333;
+  --background-color-light: #fff;
+  --text-color-dark: #fff;
+  --background-color-dark: #333;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  --text-color: var(--text-color-dark);
+  --background-color: var(--background-color-dark);
+}
+
+/* Light Mode Styles */
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Your existing styles continued... */
